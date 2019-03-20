@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NASA - Programa Galaxia</title>
+  <meta name="description" content="Hola soy Juan Santillan, 
+  soy programador web, jugador semi profesional de Overwatch, 
+  tambien me gusta dibujar :)">
+  <link rel="icon" href="./img/nasaLogoMini.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header class="Header">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          
+          <a href="#!" class="brand-logo left"><i class="material-icons">
+            <img class="responsive-img" src="./img/nasaLogo.png" alt="Juan Santillan">
+          </i>NASA</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down desktop-nav">
+            <li><a href="#">Hola</a></li>
+            <li><a href="#servicios">Proceso</a></li>
+            <li><a href="#sitios">Galaxias</a></li>
+            <li><a href="#clientes">Colaboradores</a></li>
+            <li><a href="#flujo">Pasos</a></li>
+            <li><a href="#packs">Paquetes</a></li>
+            <li><a href="#interesado">Interesado</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Hola</a></li>
+        <li><a href="#servicios">Proceso</a></li>
+        <li><a href="#sitios">Galaxias</a></li>
+        <li><a href="#clientes">Colaboradores</a></li>
+        <li><a href="#flujo">Pasos</a></li>
+        <li><a href="#packs">Paquetes</a></li>
+        <li><a href="#interesado">Interesado</a></li>
+    </ul>
+  </header>
+    
+  <section id="hola" class="white-text valign-wrapper HeroImage">
+    <div class="container row .u-lg-flexCenter">
+      <article class="col s12 xl5">
+        <h2>¿Estas interesado en viajar al espacio?</h2>
+        <p class="flowText">
+          Si tienes la oportunidad de viajar al espacio, hazlo, no te arrepentiras.
+        </p>
+        <a href="#servicios" class="btn btn-large waves-effect green white-text">
+          <b>Sí, ¡vamos al espacio!</b>
+        </a>
+      </article>
+      <article class="col s12 xl7 myImgDrake">
+        <img class="responsive-img" src="./img/nasa01.jpg" alt="header">
+      </article>
+    </div>
+  </section>
+
+  <section id="servicios" class="section white Services">
+    
+    <article class="container row myContainerCards">
+      <div class="col s12 m6 l3">
+        <article class="card myCard1">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./img/spaceGif-01.gif">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Preparación<i class="material-icons right">more_vert</i></span>
+            <p>
+              <a href="#">
+                Saber mas
+                <!-- <i class="i material-icons tiny">label</i> -->
+              </a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Preparación<i class="material-icons right">close</i></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores odio reprehenderit harum nobis ut cumque ab, earum illum? Quos repudiandae esse mollitia distinctio asperiores assumenda possimus expedita sint voluptatibus?</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col s12 m6 l3">
+        <article class="card myCard2">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./img/spaceGif-02.gif">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Viaje<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">Saber mas</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Viaje<i class="material-icons right">close</i></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores odio reprehenderit harum nobis ut cumque ab, earum illum? Quos repudiandae esse mollitia distinctio asperiores assumenda possimus expedita sint voluptatibus?</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col s12 m6 l3">
+        <article class="card myCard3">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./img/spaceGif-03.gif">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Necesidades<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">Saber mas</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Necesidades<i class="material-icons right">close</i></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores odio reprehenderit harum nobis ut cumque ab, earum illum? Quos repudiandae esse mollitia distinctio asperiores assumenda possimus expedita sint voluptatibus?</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col s12 m6 l3">
+        <article class="card myCard4">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./img/spaceGif-04.gif">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Conquista<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">Saber mas</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Conquista<i class="material-icons right">close</i></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores odio reprehenderit harum nobis ut cumque ab, earum illum? Quos repudiandae esse mollitia distinctio asperiores assumenda possimus expedita sint voluptatibus?</p>
+          </div>
+        </article>
+      </div>
+    </article>
+  </section>
+
+  <section id="sitios" class="section Website">
+    <article class="container center white-text .u-lg-flexCenter">
+      <h2>¿Quieres conocer las <b>mejores galaxias</b>?</h2>
+      <p class="flow-text">Agrega emocion y una experiencia unica a tu vida</p>
+      <div class="slider">
+        <ul class="slides">
+          <li><img src="./img/galaxies/galaxy-01.jpg" alt="Trabajo 1"></li>
+          <li><img src="./img/galaxies/galaxy-02.jpg" alt="Trabajo 2"></li>
+          <li><img src="./img/galaxies/galaxy-03.jpg" alt="Trabajo 3"></li>
+          <li><img src="./img/galaxies/galaxy-04.jpg" alt="Trabajo 4"></li>
+          <li><img src="./img/galaxies/galaxy-05.jpg" alt="Trabajo 5"></li>
+        </ul>
+      </div>
+    </article>
+    <br><br><br><br><br>
+    <article class="white-text section ResponsiveSites">
+      <div class="container row .u-lg-flexCenter">
+        <div class="col s12 l6">
+          <h3>Universos por descubrir</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fuga veniam consequuntur laboriosam obcaecati, labore quo rem enim debitis nihil cupiditate praesentium aliquam velit magnam quae vero, minima exercitationem officia!
+          </p>
+          <aside class="row">
+            <div class="col s2">
+              <img src="./img/countries/china.png" alt="Trabajo 1">
+            </div>
+            <div class="col s3">
+              <img src="./img/countries/mexico.png" alt="Trabajo 1">
+            </div>
+            <div class="col s3">
+              <img src="./img/countries/united-states.png" alt="Trabajo 1">
+            </div>
+            <div class="col s3">
+              <img src="./img/countries/south-korea.png" alt="Trabajo 1">
+            </div>
+          </aside>
+        </div>
+        <div class="col s12 l6">
+          <img src="./img/planet.gif" alt="Sitios Responsive">
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section id="clientes" class="section container Customers">
+    <div class="row .u-lg-flexCenter">
+      <div class="col s12 center">
+        <h2>Los <b>mejores</b> colaboradores </h2>
+        <p class="flow-text">Inteligencia y valor</p>
+      </div>
+      <div class="col s12 l4 myMainCustomer">
+        <figure>
+          <img class="responsive-img" src="./img/customers/ellen-ochoa.jpg" alt="Marcellus Wallace">
+          <figcaption>
+            <h5>Ellen Ochoa</h5>
+            <small>Astronauta</small>
+            <br>
+            <a href="#" target="_blank">Ver proyecto</a>      
+            <blockquote class="flow-text">
+              Ellen Ochoa también hizo historia al ser la primera mujer latinoamericana en viajar al espacio en 1993.
+            </blockquote>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col s12 l4 myMainCustomer">
+        <figure>
+          <img class="responsive-img" src="./img/customers/rodolfo-neri.jpg" alt="Vicent Vega">
+          <figcaption>
+            <h5>Rodolfo Neri Vela</h5>
+            <small>Astronauta</small>
+            <br>
+            <a href="#" target="_blank">Ver proyecto</a>      
+            <blockquote class="flow-text">
+              El guerrerense Rodolfo Neri Vela fue el primer astronauta mexicano en participar en una misión de la NASA.
+            </blockquote>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col s12 l4 myMainCustomer">
+        <figure>
+          <img class="responsive-img" src="./img/customers/john-olivas.jpg" alt="Jules Winnfield">
+          <figcaption>
+            <h5>John D. Olivas</h5>
+            <small>Astronauta</small>
+            <br>
+            <a href="#" target="_blank">Ver proyecto</a>      
+            <blockquote class="flow-text">
+              De origen californiano, John “Danny” Olivas tiene más de 330 horas en el espacio, tiempo que incluye 14 horas y 13 minutos de caminatas espaciales. 
+            </blockquote>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col s12 l4 myMainCustomer">
+        <figure>
+          <img class="responsive-img" src="./img/customers/jose-hernandez.jpg" alt="Mia Wallace">
+          <figcaption>
+            <h5>José Hernández Moreno</h5>
+            <small>Astronauta</small>
+            <br>
+            <a href="#" target="_blank">Ver proyecto</a>      
+            <blockquote class="flow-text">
+              Muchos han descrito la historia de José Hernández Moreno como un perfecto ejemplo del sueño americano.
+            </blockquote>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col s12 l4 myMainCustomer">
+        <figure>
+          <img class="responsive-img" src="./img/customers/anousheh-ansari.jpg" alt="Quentin Tarantino">
+          <figcaption>
+            <h5>Anousheh Ansari</h5>
+            <small>Astronauta</small>
+            <br>
+            <a href="#" target="_blank">Ver proyecto</a>      
+            <blockquote class="flow-text">
+              Ingeniera iraní-estadounidense cofundadora y presidenta de Prodea Systems Inc, una participante en vuelos espaciales del programa espacial ruso. 
+            </blockquote>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col s12 l4 myMainCustomer">
+        <figure>
+          <img class="responsive-img" src="./img/customers/liu-yang.jpg" alt="Butch Coolidge">
+          <figcaption>
+            <h5>Liu Yang</h5>
+            <small>Astronauta</small>
+            <br>
+            <a href="#" target="_blank">Ver proyecto</a>      
+            <blockquote class="flow-text">
+              Piloto y astronauta china. El 16 de junio de 2012 se convirtió en la primera mujer china que viajó al espacio, como miembro de la tripulación de la misión Shenzhou 9.
+            </blockquote>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="flujo" class="section white-text WorkFlow">
+    <div class="container">
+      <article>
+        <h2 class="center">👩🏻‍🚀Comencemos con esta aventura unica👨🏻‍🚀</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quam dolorem delectus corrupti illum ipsa eligendi illo perspiciatis numquam explicabo, alias vel id ullam unde distinctio saepe facilis itaque odit.
+          <em>Viajemos a <b>galaxias nuevas</b></em>.
+        </p>
+        <p>
+          Trabajemos juntos:
+          <em>En esta <b>increible aventura</b></em>.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis qui earum aliquid rem beatae quae voluptas, fugiat expedita soluta ducimus, tempora mollitia, laboriosam blanditiis commodi architecto consequatur nemo! Debitis, magnam!
+        </p>
+      </article>
+      <aside class="WorkFlow-steps">
+        <article class="row .u-lg-flexCenter">
+          <div class="col s12 l6 right-align">
+            <h3>Paso #1</h3>
+            <h4>Preparación mental</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa molestiae minima sapiente velit illo deserunt eius a nesciunt labore id est rem laboriosam tenetur adipisci, at suscipit laborum nobis!
+            </p>
+          </div>
+          <div class="col s12 l6">
+            <img class="responsive-img materialbox" src="img/steps/step-1.jpg" alt="Concepto y Presupuesto">
+          </div>
+        </article>
+        <article class="row .u-lg-flexCenter">
+          <div class="col s12 l6 push-l6">
+            <h3>Paso #2</h3>
+            <h4>Preparación física</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis ut officiis assumenda, mollitia perferendis consequuntur consectetur aut cumque blanditiis quia obcaecati doloremque veniam ex necessitatibus provident, aliquam perspiciatis nulla.
+            </p>
+          </div>
+          <div class="col s12 l6 pull-l6">
+            <img class="responsive-img materialbox" src="img/steps/step-2.jpg" alt="Concepto y Presupuesto">
+          </div>
+        </article>
+        <article class="row .u-lg-flexCenter">
+          <div class="col s12 l6 right-align">
+            <h3>Paso #3</h3>
+            <h4>Prueba de resistencia física y mental</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatibus maxime magni quasi illo, error ea dolor molestiae distinctio, eligendi esse quas voluptate exercitationem! Unde doloremque facilis minus natus repellendus!
+            </p>
+          </div>
+          <div class="col s12 l6">
+            <img class="responsive-img materialbox" src="img/steps/step-3.jpg" alt="Concepto y Presupuesto">
+          </div>
+        </article>
+        <article class="row .u-lg-flexCenter">
+          <div class="col s12 l6 push-l6">
+            <h3>Paso #4</h3>
+            <h4>Preparación de pilotaje</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, optio voluptatibus soluta labore vel dolores facilis magnam error, laboriosam explicabo nihil id cumque porro inventore, quidem eaque accusantium aliquid ipsum!
+            </p>
+          </div>
+          <div class="col s12 l6 pull-l6">
+            <img class="responsive-img materialbox" src="img/steps/step-4.jpg" alt="Concepto y Presupuesto">
+          </div>
+        </article>
+        <article class="row .u-lg-flexCenter">
+          <div class="col s12 l6 right-align">
+            <h3>Paso #5</h3>
+            <h4>Prueba espacial</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque ipsum eos quas magni ducimus aperiam, tempora officia debitis optio fugit aut odit eum dolore voluptatibus, facilis voluptates iusto minima.
+            </p>
+          </div>
+          <div class="col s12 l6">
+            <img class="responsive-img materialbox" src="img/steps/step-5.jpg" alt="Concepto y Presupuesto">
+          </div>
+        </article>
+        <article class="row .u-lg-flexCenter">
+          <div class="col s12 center">
+            <small>
+              <sup><b>*</b></sup>Consulte a su medico.
+              La NASA no se hace responsable: <b>Gracias</b> y viaje con los mejores.
+            </small>
+          </div>
+        </article>
+      </aside>
+    </div>
+  </section>
+
+  <section id="packs" class="section Packs">
+    <article class="container center">
+      <h2 class="packs-title">Administración Nacional de la Aeronáutica y del Espacio</h2>
+      <p class="packs-text flow-text">
+        Agencia del gobierno estadounidense responsable del programa espacial civil, así como de la investigación aeronáutica y aeroespacial.
+        <b class="packs-text-bold white-text">En 1958, el presidente Dwight Eisenhower fundó la NASA​ con una orientación de marcado carácter civil, en lugar de militar, fomentando las aplicaciones pacíficas de la ciencia espacial.</b> 
+        Desde entonces la mayoría de los esfuerzos de exploración espacial de Estados Unidos han sido dirigidos por la NASA, incluyendo las misiones Apolo de aterrizaje en la Luna, la estación espacial Skylab y más tarde el transbordador espacial.
+      </p>
+      <br>
+    </article>
+    <aside class="SinglePage">
+      <div class="section v-align-wrapper">
+        <div class="container white-text">
+          <div class="row">
+            <article class="col s12 l6 offset-l6">
+              <br><br><br><br>
+              <a href="#interesado" class="btn btn-large waves-effect green left">
+                <b>Desde $4,000.00 <small>USD</small></b>
+              </a>
+              <br class="clear-fix">
+              <br>
+              <h3>Viaje en nuestra galaxia</h3>
+              <small>El precio puede ser más bajo (o más alto) dependiendo de los requisitos del piloto.</small>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas veritatis maxime velit at aliquam quisquam distinctio sapiente soluta, placeat est? Magni id quaerat fugiat, beatae rem laborum nesciunt repellendus dolores!
+              </p>
+              <a href="#interesado" class="valign-wrapper">
+                Solicite una cotización ahora
+                <i class="material-icons tiny">chevron_right</i>
+              </a>
+              <div class="row">
+                <div class="col s6">
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    Conoce 5 planetas diferentes.
+                  </p>
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    100% Seguro.
+                  </p>
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    Personal 100% capacitado.
+                  </p>
+                </div>
+                <div class="col s6">
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    2 Medicos.
+                  </p>
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    Playera de la NASA.
+                  </p>
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    Soporte.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <aside class="MultiPage">
+      <div class="section v-align-wrapper">
+        <div class="container white-text">
+          <div class="row">
+            <article class="col s12 l6">
+              <br><br><br><br>
+              <a href="#interesado" class="btn btn-large waves-effect green">
+                <b>Desde $10,000.00 <small>USD</small></b>
+              </a>
+              <br class="clear-fix">
+              <h3>Conoce 2 galaxias</h3>
+              <small>El precio puede ser más bajo (o más alto) dependiendo de los requisitos de los pilotos.</small>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente labore fugiat itaque omnis, eaque est beatae ipsam minima voluptas, rerum perspiciatis quo perferendis! Soluta repellat illo similique accusamus, non fuga!
+              </p>
+              <a href="#interesado" class="valign-wrapper">
+                Solicite una cotización ahora
+                <i class="material-icons tiny">chevron_right</i>
+              </a>
+              <div class="row">
+                <div class="col s6">
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    Conoce 2 galaxias y 12 planetas.
+                  </p>
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    100% Seguro.
+                  </p>
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    Personal 100% capacitado.
+                  </p>
+                </div>
+                <div class="col s6">
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    5 medicos.
+                  </p>
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    Nave extra de emergencia.
+                  </p>
+                  <p class="valign-wrapper">
+                    <i class="material-icons">done</i>
+                    Soporte.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <section id="interesado" class="scrollspy Contact">
+    <div class="container .u-lg-flexCenter">
+      <div class="row">
+        <article class="col s12 l7">
+          <div class="center">
+            <h3>¿Interesado?</h3>
+            <h4>¡Registrate al programa!</h4>
+            <p class="flow-text">
+              Para más información, puedes contactarnos en <a href="juanyut@noobsjs.io">nasainfo@nasa.space</a>
+            </p>
+          </div>
+        </article>
+        <article class="col s12 l5">
+          <form class="">
+            <div class="input-field">
+              <input type="text" id="name" name="name" class="validate" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚú\s]+$">
+              <label for="name">Nombre</label>
+            </div>
+            <div class="input-field">
+              <input type="email" id="email" name="email" class="validate" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <textarea name="comments" id="comments" cols="30" rows="10" class="validate  materialize-textarea"></textarea>
+              <label for="comments">Comentarios</label>
+            </div>
+            <div class="input-field">
+              <button class="btn waves-effect waves-light" type="submit" name="send_form">Enviar
+              <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </form>
+        </article>
+      </div>
+    </div>
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="./img/carousel-1.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="./img/carousel-2.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="./img/carousel-3.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="./img/carousel-4.jpg"></a>
+    </div>
+  </section>
+
+  <section>
+    <footer class="Footer">
+      <div class="container">
+        <ul class="flow-text SocialMedia">
+          <li>
+            <a href="https://twitter.com/NASA" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/nasa/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/NASA/" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+        <small class="white-text"></small>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

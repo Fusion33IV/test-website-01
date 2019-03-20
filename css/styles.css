@@ -1,0 +1,249 @@
+/* Custom Properties */
+:root {
+  --main-font: 'Raleway';
+  --alternate-font: sans-serif;
+  --font-size: 16px;
+  --line-height: 1.6;
+
+  --main-color: #FFF;
+  --main-modal-color: #138319;
+  --second-color: #01579b;
+  --second-modal-color: rgba(0, 0, 0, 0.5);
+
+  --bg-color: #2CC434;
+  --bg-modal-color: rgba(229, 255, 0, 0);
+  --bg-alternate-color: #F3F3F3;
+  --border-color: #DDD;
+
+  --action-color: #4caf50;
+
+  --text-color: #333;
+  --title-color: var(--second-color);
+
+  --link-color: var(--main-color);
+  --link-hover-color: var(--second-color);
+
+  --logo-width: 4rem;
+  --logo-height: 4rem;
+  --logo-spacing: .5rem;
+
+  --nav-height: 56px;
+}
+
+/* ----------------------------------------------------------------- */
+nav, .navbar-fixed {
+ background-color: var(--second-color);
+ height: var(--nav-height);
+ line-height: var(--nav-height);
+ border-bottom: 1px groove white;
+}
+
+.brand-logo img {
+  padding: var(--logo-spacing);
+  max-height: var(--nav-height);
+}
+
+.sidenav-trigger:hover {
+  color: var(--bg-color);
+}
+/* Color de la barra lateral */
+.sidenav {
+  top: var(--nav-height);
+  background-color: var(--second-color);
+  border: 1px groove white;
+}
+/* Background de las letras del menu lateral */
+.sidenav li:hover, .desktop-nav li:hover {
+  background-color: var(--main-color);
+  transition: all .4s ease;
+}
+/* Letras negras del menu lateral */
+.sidenav li > a:hover {
+  color: var(--second-color);
+ }
+/* Letras blancas del navbar */
+.sidenav li > a,
+.desktop-nav a {
+  color: var(--main-color);
+  font-size: 1.15rem;
+  font-weight: bold;
+  transition: all .4s ease;
+}
+/* Sombra del navbar */
+ .desktop-nav a:hover {
+   color: var(--second-color);
+   background-color: transparent;
+ }
+
+ .green { background-color: var(--action-color) !important; }
+
+ .green-text { color: var(--action-color) !important; }
+
+ .section {
+   width: 100%;
+   min-height: 100vh;
+ }
+
+ .Services .container {
+  height: inherit;
+ }
+
+ .slider {
+   margin: auto;
+   max-width: 800px;
+   height: auto;
+ }
+
+ blockquote {
+   border-left: 5px solid var(--second-color);
+   color: var(--second-color);
+ }
+
+.myMainCustomer figure img {
+  height: 300px;
+  width: 250px;
+}
+
+/* label color */
+.input-field label,
+.input-field .prefix.active {
+  color: var(--second-color) !important;
+}
+/* label focus color */
+.input-field input:focus + label,
+.input-field textarea:focus + label {
+  color: var(--bg-color) !important;
+}
+/* label underline focus color */
+.input-field input:focus,
+.input-field textarea:focus {
+  border-bottom: 1px solid var(--bg-color) !important;
+  box-shadow: 0 1px 0 0 var(--bg-color) !important;
+}
+
+.input-field .btn { background-color: var(--bg-color); }
+
+.input-field .btn:hover { background-color: var(--main-modal-color); }
+
+ /* ------------------------------ My Styles ------------------------------ */
+ .HeroImage, .Services, .Website {
+   min-height: calc(100vh - var(--nav-height));
+   background-size: auto;
+   background-color: var(--second-color);
+ }
+
+ .myImgDrake img {
+   margin-top: 10px;
+ }
+
+ .Services img {
+   height: 260px;
+ }
+
+  .myContentProcesos h2{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .ResponsiveSites .container  img{
+    float: right;
+  }
+
+  .ResponsiveSites .container {
+    float: center;
+  }
+
+  .SinglePage,
+  .MultiPage {
+    background-image: url("../img/rocket-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .MultiPage {
+    background-image: url("../img/rocket-02.jpg")
+  }
+
+  .SinglePage > .section,
+  .MultiPage > .section {
+    background-color: var(--second-modal-color);
+    height: inherit;
+  }
+
+  .WorkFlow {
+    background-color: var(--second-color);
+  }
+
+  .Customers h2 {
+    color: var(--second-color);
+  }
+
+  .Packs .packs-title, .packs-text {
+    color: var(--second-color);
+  }
+
+  .Packs .packs-text-bold {
+    background-color: var(--second-color);
+  }
+
+  .AboutInfo {
+    padding: 3em;
+  }
+
+  .Footer {
+    padding: 1rem;
+    background-color: var(--second-color);
+    text-align: center;
+  }
+
+  .Footer .fab {
+    color: var(--main-color);
+  }
+
+  .SocialMedia {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /* ------------------------------ Media Queries Medium ------------------------------ */
+  @media only screen and (min-width: 601px) {
+    .Services .container .card img {
+      height: 300px;
+    }
+    .myFirstCustomer figure img {
+      height: 300px;
+      width: 100px;
+    }
+  }
+
+  /* ------------------------------ Media Queries Large ------------------------------ */
+  @media only screen and (min-width: 993px) {
+    .u-lg-flexCenter {
+      min-height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Services .myContainerCards {
+      min-height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Website h2 {
+      margin-top: 40px;
+    }
+    .myFirstCustomer figure img {
+      height: 300px;
+      width: 600px;
+    }
+  }
+
+  /* ------------------------------ Media Queries ExtraLarge ------------------------------ */
+  @media only screen and (min-width: 1201px) {
+
+  }
